@@ -9,9 +9,6 @@ function ProsesBooking($post_data, $bookinKamar){
     return $bookinKamar;
 
 }
-
-// session_start();
-
 // Fungsi untuk mengubah status kamar
 function changeStatus($id, $room){
     foreach($room as $key => $value){
@@ -59,7 +56,7 @@ function countNotAvailable() {
 
 
 
-//untuk statsitik data
+// untuk statsitik data
 
 // function getKamarStats($kamar, $bookinKamar){
 //     return [count($kamar), count($bookinKamar),count($kamar) - count($bookinKamar)];
@@ -67,7 +64,5 @@ function countNotAvailable() {
 // $bookinKamar = ProsesBooking($_POST, $_POST['booked_rooms'] ?? [
 // ]);
 // list($total_kamar, $kamar_booking, $kamar_kosong) = getKamarStats($_SESSION['kamar'], $bookinKamar);
-// ?>
 
-<!-- get put,post sama delete
-post untuk mengiri sebuah data -->
+?>

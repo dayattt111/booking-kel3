@@ -1,8 +1,5 @@
 <?php
 session_start();
-
-// Data pengguna disimpan dalam array
-
 //ada 3 key : username, password, role
 $users = [
     ["username" => "user", "password" => "user123", "role" => "user"],
@@ -48,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <?php if ($error): ?>
             <p class="error"><?= $error ?></p>
         <?php endif; ?>
-        <form method="POST" action="">
+        <form method="POST">
             <div class="form-group">
                 <label for="username">Username</label>
                 <input type="text" id="username" name="username" required>

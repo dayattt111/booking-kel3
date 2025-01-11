@@ -5,7 +5,7 @@ $kamar = [
         "id" => 1,
         "nama" => "Deluxe Room",
         "deskripsi" => "Kamar Deluxe dengan fasilitas lengkap.",
-        "harga" => 2000,
+        "harga" => 209000,
         "gambar" => "./asset/k0.jpg",
         "status" => true
     ],
@@ -82,7 +82,7 @@ $kamar = [
         "status" => true
     ],
     [
-        "id" => 10,
+        "id" => 11,
         "nama" => "Penthouse Suite",
         "deskripsi" => "Penthouse eksklusif dengan pemandangan desa .",
         "harga" => 312000,
@@ -90,10 +90,10 @@ $kamar = [
         "status" => true
     ],
     [
-        "id" => 11,
-        "nama" => "Penthouse Suite",
-        "deskripsi" => "Penthouse eksklusif dengan pemandangan desa .",
-        "harga" => 512000,
+        "id" => 12,
+        "nama" => "LOwlist Suite",
+        "deskripsi" => "Penthouse eksklusif dengan pemandangan Guhung .",
+        "harga" => 312000,
         "gambar" => "./asset/k1.jpg",
         "status" => true
     ],
