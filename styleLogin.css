@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./asset/k6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.login-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-group input:focus {
+    border-color: #ff69b4;
+    outline: none;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Tambahan untuk estetika */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Efek overlay gelap */
+    z-index: -1;
+}
+
+.login-container {
+    position: relative;
+    z-index: 1;
+}
+
+.login-container h1 {
+    font-family: 'Arial Black', Arial, sans-serif; /* Penyesuaian font */
+    font-size: 24px;
+}
+
+.form-group input {
+    transition: box-shadow 0.3s;
+}
+
+.form-group input:focus {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
